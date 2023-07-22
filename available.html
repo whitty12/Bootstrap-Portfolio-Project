@@ -1,195 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="Stephanie Whitworth" content="" />
-        <title>Properties - Twin Oaks</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/propertystyles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Twin Oaks</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Rentals</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="properties.html">Properties</a></li>
-                                <li><a class="dropdown-item" href="available.html">Available Soon</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li>
-                            <a class="nav-link" href="comingsoon.html" role="button" aria-current="page">Apply</a>
-                        </li>
-                        <li>
-                            <!-- This eventually links to a tenant portal -->
-                            <a class="nav-link" href="comingsoon.html" role="button" aria-current="page">Tenants</a>
-                        </li>
-                    </ul>
-                    <a class="btn btn-outline-dark" type="submit" href="contact.html">
-                            Contact Us
-                    </a>
-                </div>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="Stephanie Whitworth" content="" />
+    <title>Available - Twin Oaks</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/propertystyles.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />"
+    <!-- Script put in head as specified in website documentation-->
+    <script src="https://kit.fontawesome.com/e6ccab4e1c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="index.html">Twin Oaks</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Rentals</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="properties.html">Properties</a></li>
+                            <li><a class="dropdown-item" href="available.html">Available Soon</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li>
+                        <a class="nav-link" href="contact.html" role="button" aria-current="page">Apply</a>
+                    </li>
+                    <li>
+                        <!-- This eventually links to a tenant portal -->
+                        <a class="nav-link" href="contact.html" role="button" aria-current="page">Tenants</a>
+                    </li>
+                </ul>
+                <a class="btn btn-outline-dark" type="submit" href="contact.html">
+                    Contact Us
+                </a>
             </div>
-        </nav>
-        <!-- Header-->
-        <header class="bg-dark py-5">
-            <div class="container px-4 px-lg-5 my-5">
-                <div class="text-center text-white">
-                    <h1 class="display-4 fw-bolder">Find the Perfect Home</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">New properties available all the time!</p>
-                </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-dark py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder">Find the Perfect Home</h1>
+                <p class="lead fw-normal text-white-50 mb-0">New properties available all the time!</p>
             </div>
-        </header>
-        <!-- Section-->
-        <section class="py-5">
-            <div class="container px-4 px-lg-5 mt-5">
-                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Available</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Rental Two</h5>
-                                    <!-- Product price-->
-                                    $1870.00
+        </div>
+    </header>
+    <!-- Section-->
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                            Available</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="/assets/img/house2..jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">1900 Broadway</h5>
+                                <div class="row row-content border-top justify-content-center">
+                                    <div class="col-2">
+                                        <i class="fa-solid fa-bed"></i>
+                                    </div>
+                                    <div class="col text-center">
+                                        2
+                                    </div>
+                                    <div class="col-2">
+                                        <i class="fa-solid fa-bath"></i>
+                                    </div>
+                                    <div class="col text-center">
+                                        2
+                                    </div>
                                 </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Details</a></div>
+                                <!-- Product price-->
+                                <div class="text-center">
+                                    $2000
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Available</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Rental Three</h5>
-                                    <!-- Product price-->
-                                    $2500.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Details</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Available</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Rental Five</h5>
-                                    <!-- Product price-->
-                                    $2550.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Details</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Rental Six</h5>
-                                    <!-- Product price-->
-                                    $2800.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="contact.html">Available: July 30th</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Available</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Rental Seven</h5>
-                                    <!-- Product price-->
-                                    $1890.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Details</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Rental Eight</h5>
-                                    <!-- Product price-->
-                                    $3000.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="contact.html">Available: July 30th</a></div>
-                            </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    href="rentaldetailstemplate.html">Details</a></div>
                         </div>
                     </div>
                 </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                            Available</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="/assets/img/house3.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">1015 Philli Lane</h5>
+                                <div class="row row-content border-top justify-content-center">
+                                    <div class="col-2">
+                                        <i class="fa-solid fa-bed"></i>
+                                    </div>
+                                    <div class="col text-center">
+                                        3
+                                    </div>
+                                    <div class="col-2">
+                                        <i class="fa-solid fa-bath"></i>
+                                    </div>
+                                    <div class="col text-center">
+                                        2
+                                    </div>
+                                </div>
+                                <!-- Product price-->
+                                $2500.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    href="house3details.html">Details</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                            Available</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="/assets/img/house5.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">4834 Camel Back Road</h5>
+                                <div class="row row-content border-top justify-content-center">
+                                    <div class="col-2">
+                                        <i class="fa-solid fa-bed"></i>
+                                    </div>
+                                    <div class="col text-center">
+                                        4
+                                    </div>
+                                    <div class="col-2">
+                                        <i class="fa-solid fa-bath"></i>
+                                    </div>
+                                    <div class="col text-center">
+                                        2
+                                    </div>
+                                </div>
+                                <!-- Product price-->
+                                $2550.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    href="house5details.html">Details</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="/assets/img/house6.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">4897 Dovetail Estates</h5>
+                                <div class="row row-content border-top justify-content-center">
+                                    <div class="col-2">
+                                        <i class="fa-solid fa-bed"></i>
+                                    </div>
+                                    <div class="col text-center">
+                                        3
+                                    </div>
+                                    <div class="col-2">
+                                        <i class="fa-solid fa-bath"></i>
+                                    </div>
+                                    <div class="col text-center">
+                                        3
+                                    </div>
+                                </div>
+                                <!-- Product price-->
+                                $2800.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    href="contact.html">Available: July 30th</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                            Available</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="/assets/img/house7.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">3439 Dovetail Estates</h5>
+                                <div class="row row-content border-top justify-content-center">
+                                    <div class="col-2">
+                                        <i class="fa-solid fa-bed"></i>
+                                    </div>
+                                    <div class="col text-center">
+                                        2
+                                    </div>
+                                    <div class="col-2">
+                                        <i class="fa-solid fa-bath"></i>
+                                    </div>
+                                    <div class="col text-center">
+                                        1 
+                                    </div>
+                                </div>
+                                <!-- Product price-->
+                                $1890.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    href="house7details.html">Details</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="/assets/img/house8.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">4045 Henry Ford Ave.</h5>
+                                <div class="row row-content border-top justify-content-center">
+                                    <div class="col-2">
+                                        <i class="fa-solid fa-bed"></i>
+                                    </div>
+                                    <div class="col text-center">
+                                        3
+                                    </div>
+                                    <div class="col-2">
+                                        <i class="fa-solid fa-bath"></i>
+                                    </div>
+                                    <div class="col text-center">
+                                        1
+                                    </div>
+                                </div>
+                                <!-- Product price-->
+                                $3000.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    href="contact.html">Available: July 30th</a></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Twin Oak Realty Inc. 2023</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Twin Oak Realty Inc. 2023</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
